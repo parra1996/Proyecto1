@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: center;
+    justify-content:center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: green;
+}
+
+.contenedor {     
+   width: 25em;
+   height: 40em;
+
+   display: flex;
+   flex-direction: center;
+   justify-content: right;
+   align-items: center;
+
+   background-color: purple;
+   border-radius: .5em .5em 3.5em 3em;
+    
+}
+
+.cuerpo {
+    width: 24.5em;
+    height: 40em;
+   
+
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+
+    background-color: rgba(219, 24, 219, 0.384);
+
+    border-radius: .5em .5em 3.5em 3em;
+}
+
+.marcoPantalla {
+    width: 20em;
+    height: 18em;
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction:center;
+    justify-content:center ;
+    
+
+    background-color: rgb(37, 36, 36);
+    border-radius: .5em .5em 1em 1em;
+    
+}
+
+.pantalla {
+    width: 12em;
+    height: 12em;
+    margin-top: 3em;
+
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+   
+
+    background-color: lightgreen;
+
+    border-radius: .5em .5em 1em 1em;
+}
+
+/*.cruz {
+    width: 2em;
+    height:2em;
+
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
