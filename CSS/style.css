@@ -33,8 +33,9 @@ body {
    
 
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     background-color: rgba(219, 24, 219, 0.384);
 
@@ -47,8 +48,8 @@ body {
     margin-top: 1em;
 
     display: flex;
-    flex-direction:center;
-    justify-content:center ;
+    justify-content:center;
+    align-items: center;
     
 
     background-color: rgb(37, 36, 36);
@@ -59,7 +60,7 @@ body {
 .pantalla {
     width: 12em;
     height: 12em;
-    margin-top: 3em;
+    
 
     display: flex;
     flex-direction: center;
@@ -72,14 +73,67 @@ body {
     border-radius: .5em .5em 1em 1em;
 }
 
-/*.cruz {
-    width: 2em;
-    height:2em;
+.imgG { 
+    background-color: transparent;
+    height: 12em;
+    width: 12em;
+}
+
+
+.botones {
+    width: 22em;
+    height:10em;
 
     background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
 
+.botonesHijos1 {
+    width: 7.3em;
+    height:10em;
+
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+}
+
+.botonesHijos2 {
+    width: 7.3em;
+    height:10em;
+
+    background-color: green;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+}
+
+.botonesHijos3 {
+    width: 7.3em;
+    height:10em;
+
+    background-color: red;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+}
+
+
+.botonesSeleccion {
+    width: 22em;
+    height:10em;
+
+    background-color: yellow;
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}*/
+    align-items:flex-end;
+}
+
